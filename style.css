@@ -116,13 +116,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color: olivedrab;
+    color: white;
     border-radius: 0 25px 25px 0;
 }
 
-.button-add:hover {
-    background-color: #a1a1a1;
+.button-add:disabled{
+    background-color: grey;
 }
 
 /* Listas */
@@ -140,6 +140,7 @@ ul {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 /* Botón de sortear título */
@@ -159,4 +160,8 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+#botonSortear:disabled {
+    background-color: grey;
 }
